@@ -24,8 +24,8 @@ Currently each button sends a **fixed MIDI Control Change message**.
 
 ## Wiring diagram
 
-![Alt text](https://github.com/user-attachments/assets/8d87a377-ea83-48d6-a063-73e1582ba580)
-<!-- <img width="602" height="680" alt="image" src="https://github.com/user-attachments/assets/0c65ac73-f2f6-4a56-9fea-8595d940826c" /> -->
+
+![wiring-diagram](https://github.com/user-attachments/assets/963e21e7-3f2d-402c-857e-c0da90e0e194)
 
 ## Setup
 This project uses the **Arduino-USB-Rename** available [here](https://github.com/mon/Arduino-USB-Rename).
@@ -41,17 +41,19 @@ It also requires the **MIDIUSB** library available [here](https://github.com/ard
 3. Launch GTR3
 4. Go to File -> Preferences
 
-   ![Alt text](https://github.com/user-attachments/assets/2ae1f4ce-0c94-459a-838d-daa3b990f76f)
+   ![setup-1](https://github.com/user-attachments/assets/129f27a4-cab3-4b98-b883-ba33722e2563)
+
 
 5. Check the GTR3_Pedal under Active MIDI inputs
 
-   ![Alt text](https://github.com/user-attachments/assets/e31281ea-92d9-43be-8f7a-8c66df1586db)
+   ![setup-2](https://github.com/user-attachments/assets/de9b5af0-b08e-46fe-84ca-1d6fd033a169)
 
 ## Mapping effects via MIDI
 1. Right click on the effect(s) you want to control in GTR3
 2. Click Learn
 
-   ![Alt text](https://github.com/user-attachments/assets/582ca127-3349-4578-8011-2cf05028dbbd)
+   ![mapping](https://github.com/user-attachments/assets/3936fa2f-a8b7-4c8f-afdb-5459ffa7222d)
+
 
 3. Press the footswitch on the pedal you want to assign to that effect
 
@@ -62,9 +64,11 @@ For a full guide on MIDI mapping and controlling multiple parameters, see the [*
 ## Removing a MIDI Mapping
 1. Right-click on the effect
 
-   ![Alt text](https://github.com/user-attachments/assets/ad65d42d-ab78-4160-8e56-336705bb6b18)
+   ![clear](https://github.com/user-attachments/assets/807716ab-dac2-449b-94a3-192c3709f437)
+
 
 2. Click Clear or Cancel Learn, depending on your situation
+
 
 
 ## Tips
@@ -74,7 +78,7 @@ For a full guide on MIDI mapping and controlling multiple parameters, see the [*
 **That's it, you're ready to rock !**
 
 ## Final Product
-   ![Alt text](https://github.com/user-attachments/assets/b7773b45-c1b9-4ea2-8214-60f3673927ad)
+   ![final-product](https://github.com/user-attachments/assets/b1ff2041-3e6d-4c94-9ec1-ff941c683dcc)
 
 ## Upcoming Features & Upgrades
 1. **Bank Support**  
